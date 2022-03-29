@@ -1,0 +1,6 @@
+@SpringBootApplication
+Одну аннотацию @SpringBootApplication можно использовать для включения этих трех функций, а именно:
+1)@EnableAutoConfiguration: включить механизм автоконфигурации Spring Boot,
+2)@ComponentScan: включить сканирование @Component для пакета, в котором находится приложение,
+3)@Configuration: позволяет регистрировать дополнительные компоненты (beans) в контексте или импортировать дополнительные классы конфигурации.
+@SpringBootApplication также предоставляет псевдонимы для настройки атрибутов @EnableAutoConfiguration и @ComponentScan. 
